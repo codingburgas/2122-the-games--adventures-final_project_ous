@@ -1,5 +1,3 @@
-<img src = "Logo.png">
-
 # Contributors
 
 > Velimir Dimitrov - Scrum Trainer
@@ -10,7 +8,7 @@
 
 > Nikola Krushkov - Back-End Developer
 
-> Samuil Shvarla - Back-End Developer
+> Samuil Shkvarla - Back-End Developer
 
 > Angel Angelov - Front-End Developer
 
