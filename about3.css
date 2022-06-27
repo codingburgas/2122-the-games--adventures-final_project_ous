@@ -1,0 +1,165 @@
+@import "navbar2.css";
+@import "footer.css";
+body{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 30%;
+    background-color: #1d0612;
+}
+footer{
+    margin-top: 15%;
+}
+p{
+    color: #25c998;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+.about-us-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:800px;
+}   
+.about-us-wrapper-title{
+    color: #25c998;
+    font-size:3rem;
+    letter-spacing: 0.04em;
+    border-bottom: 4px solid #2391ff;
+    margin-right: 5%;
+}
+.about-us-cards-wrapper{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height:unset;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:300px;
+    height:500px;
+}
+
+.about-us-text-wrapper{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:unset;
+}
+.about-us-text-content{
+    font-size:2rem;
+}
+.about-us-line{
+    width:70%;
+    height:4px;
+
+    border-bottom: 4px solid #2391ff;
+}
+.about-us-text-content-under-the-line{
+    font-size: 1.2rem;
+}
+.social-icons-wrapper{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-us-social-icon-1{
+    width:30px;
+    height:30px;
+    background-image: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-social-icon-2{
+  width:30px;
+  height:30px;
+  background-image: url(../images/outlook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-social-icon-1:hover {
+  transform: scale(1.1);
+  transform: .30s;
+}
+.about-us-social-icon-2:hover {
+  transform: scale(1.1);
+  transform: .30s;
+}
+.about-us-img-1{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background-image: url(../images/Velimir.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-img-2{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background-image: url(../images/Ynislav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-img-3{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  background-image: url(../images/Dimitar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-img-4{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  background-image: url(../images/Nikola.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-img-5{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background-image: url(../images/Samuil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-img-6{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  background-image: url(../images/Ivan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-img-7{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  background-image: url(../images/Angel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.about-us-img-8{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background-image: url(../images/Miroslav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
