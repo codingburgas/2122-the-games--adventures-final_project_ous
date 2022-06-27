@@ -1,4 +1,4 @@
-<h1 align="center">Advanture Game Project</h1>
+<h1 align="center">Adventure Game Project</h1>
 
 <p align="center"><img src="Images/Logo.jpg" width="400"></p>
 
