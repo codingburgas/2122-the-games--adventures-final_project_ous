@@ -1,0 +1,77 @@
+@import url(Navbar.css);
+@import url(footer\ \(1\).css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas, sans-serif;
+}
+
+body {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1d0612;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.container .card {
+    position: relative;
+    width: 320px;
+    height: 440px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.container .card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #00FFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+ 
+.container .card:hover .box {
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg,#00FF00,#00FFFF);
+}
+
+.container .card .box .content {
+    padding: 20px; 
+    text-align: center;
+}
+
+.container .card .box .content h3 {
+    font-size: 1.8em;
+    color: rgb(255, 0, 0);
+    z-index: 1;
+    transition: 0.5s;
+}
+.container .card:hover .box .content h3, 
+.container .card:hover .box .content p{
+    color: #059b05ad;
+}
+
+.container .card .box .content p {
+    font-size: 1em;
+    font-weight: 300;
+    color: #00FFFF;
+    z-index: 1;
+    transition: 0.5s;
+}
